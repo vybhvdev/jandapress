@@ -8,6 +8,6 @@ RUN npm install
 COPY . .
 RUN npm run build
 
-EXPOSE 3000
+EXPOSE 8080
 
-CMD ["node", "build/src/index.js"]CMD ["npm", "start"]
+CMD ["node", "build/src/index.js"]
